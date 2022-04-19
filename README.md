@@ -13,7 +13,7 @@ var keys: Keys = Keys()
 ```
 or
 ```
-var keys: Keys = RSAKeys(publicKey: SecKey, privateKey: SecKey)
+var keys: Keys = Keys(publicKey: SecKey, privateKey: SecKey)
 ```
 The first is used when a public and private key need to be generated, and the second is used when they already exist, and the developer wants to simply reuse them in their Keys object, for which they just need to input their public and private key into the parameters, and the Keys object will register them.
 
