@@ -8,11 +8,11 @@ RSAKeys can be installed by adding ```pod 'RSAKeys'``` into the Podfile.
 # Initialization
 To initialize the Keys object, simply use 1 of the 2 constructors:
 ```
-var keys: Keys = Keys()
+var keys: RSAKeys = RSAKeys()
 ```
 or
 ```
-var keys: Keys = Keys(publicKey: SecKey, privateKey: SecKey)
+var keys: RSAKeys = RSAKeys(publicKey: SecKey, privateKey: SecKey)
 ```
 The first is used when a public and private key need to be generated, and the second is used when they already exist, and the developer wants to simply reuse them in their Keys object, for which they just need to input their public and private key into the parameters, and the Keys object will register them.
 
