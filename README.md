@@ -1,5 +1,5 @@
 # RSAKeys
-This repository hosts the Pod RSAKeys, a structure made in Swift that allows developers to have an easy experience when using RSA encryption. 
+This repository hosts the pod RSAKeys, a structure made in Swift that allows developers to have an easy experience when using RSA encryption. 
 RSAKeys creates a Keys object, which has 2 variables: a public and private key. The public key is used to encrypt data, whereas the private key is used to decrypt data. All the functions to create keys and recreate keys based on public key strings is already in the Pod. 
 
 # Installation
