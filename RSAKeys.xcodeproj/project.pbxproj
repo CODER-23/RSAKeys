@@ -77,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				23C9A3AD280F260700DA26CD /* RSAKeys */,
-				23C9A3DF280F2BEC00DA26CD /* RSAKeys.swift */,
 				23C9A3B9280F260700DA26CD /* RSAKeysTests */,
 				23C9A3CA280F266F00DA26CD /* RSAKeysExamples */,
 				23C9A3AC280F260700DA26CD /* Products */,
@@ -97,6 +96,7 @@
 		23C9A3AD280F260700DA26CD /* RSAKeys */ = {
 			isa = PBXGroup;
 			children = (
+				23C9A3DF280F2BEC00DA26CD /* RSAKeys.swift */,
 				23C9A3AE280F260700DA26CD /* RSAKeys.h */,
 				23C9A3AF280F260700DA26CD /* RSAKeys.docc */,
 			);
