@@ -17,6 +17,7 @@
 		23C9A3D3280F266F00DA26CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C9A3D1280F266F00DA26CD /* Main.storyboard */; };
 		23C9A3D5280F267200DA26CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C9A3D4280F267200DA26CD /* Assets.xcassets */; };
 		23C9A3D8280F267200DA26CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C9A3D6280F267200DA26CD /* LaunchScreen.storyboard */; };
+		23C9A3E0280F2BEC00DA26CD /* RSAKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9A3DF280F2BEC00DA26CD /* RSAKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		23C9A3D4280F267200DA26CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C9A3D7280F267200DA26CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C9A3D9280F267200DA26CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C9A3DF280F2BEC00DA26CD /* RSAKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				23C9A3AD280F260700DA26CD /* RSAKeys */,
+				23C9A3DF280F2BEC00DA26CD /* RSAKeys.swift */,
 				23C9A3B9280F260700DA26CD /* RSAKeysTests */,
 				23C9A3CA280F266F00DA26CD /* RSAKeysExamples */,
 				23C9A3AC280F260700DA26CD /* Products */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C9A3E0280F2BEC00DA26CD /* RSAKeys.swift in Sources */,
 				23C9A3B0280F260700DA26CD /* RSAKeys.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +501,7 @@
 		23C9A3C3280F260700DA26CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N8JKVJ78LV;
@@ -518,6 +523,7 @@
 		23C9A3C4280F260700DA26CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N8JKVJ78LV;
