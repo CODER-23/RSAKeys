@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct RSAKeys {
+struct Keys {
 
     enum KeyType {
         case publicKey

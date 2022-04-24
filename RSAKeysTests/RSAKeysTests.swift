@@ -10,7 +10,10 @@ import XCTest
 
 class RSAKeysTests: XCTestCase {
 
+    var keys: Keys!
+    
     override func setUpWithError() throws {
+        keys = Keys()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
@@ -21,6 +24,8 @@ class RSAKeysTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        print(keys.getPublicKeyAsString() ?? "")
+        print(keys.encrypt("I love RSAKeys!") ?? "")
     }
 
     func testPerformanceExample() throws {
